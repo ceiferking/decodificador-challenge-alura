@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500&display=swap');
+
+
+body{
+    background: linear-gradient(rgb(151, 89, 156), white, rgb(201, 184, 196)); 
+
+}
+
+*{
+    font-family: 'Rubik', sans-serif;
+}
+
+
+.cabecalho{
+    display: flex;
+    justify-content: space-between;
+    padding: 3em 3em 0em 0em;
+}
+
+.cabecalho h1{
+    color: white;
+    margin: 20px;
+    text-align: center;
+}
+
+.cabecalho img{
+    max-width:180px;
+    max-height:50px;
+    width: auto;
+    height: auto;
+}
+
+.container-input{
+    display: flex;
+    justify-content: space-between;
+    padding: 2% 0 0 4%;
+}
+
+.container-input p{
+    padding: 20% 1% 0%;
+}
+
+.container-input .input{
+    width: 400px;
+    height: 330px;
+}
+
+#input-text{
+    width: 345px;
+    height: 330px;
+    font-size: 20px;
+    color: rebeccapurple;
+    background: transparent;
+    box-shadow: none;
+    border: none;
+    resize: none;
+    outline: 0;
+    padding: 10px;
+    text-transform: uppercase;
+}
+    
+
+#output{
+    display: flex;
+    flex-direction: column;
+    border: white;
+    border-radius: 20px;
+    width: 400px;
+    height: 450px;
+    margin-right: 3%;
+    margin-top: -5%;
+}
+
+#output h2{
+    text-align: center;
+    font-size: 25px;
+    color: rebeccapurple;
+}
+
+#output span{
+    font-size: 16px;
+    text-align: center;
+    color: rebeccapurple;
+}
+
+#output img{
+    max-width:350px;
+    max-height:350px;
+    width: auto;
+    height: auto;
+}
+
+.buttons{
+    padding-top: 5%;
+}
+.container-bnt button{
+    border: 2px solid black;
+    border-radius: 10px;
+    text-decoration: none;
+    width: 250px;
+    height: 65px;
+    margin: 3% 1% 6% 4%;
+    cursor: pointer;
+}
+
+.btn-descriptografar{
+    color: white;
+    background: linear-gradient( 40deg, blueviolet, rgb(99, 59, 122)0000, rgb(151, 89, 156)); 
+}
+
+.btn-criptografar{
+    color: white;
+    background: linear-gradient( 40deg, blueviolet, rgb(99, 59, 122)0000, rgb(151, 89, 156)); 
+}
+
+.btn-copiar{
+    border: 2px solid black;
+    border-radius: 10px;
+    text-decoration: none;
+    color: darkblue;
+    width: 150px;
+    height: 50px;
+    margin-bottom: 10%;
+    margin-left: 30%;
+    cursor: pointer;
+}
+
+.container-bnt button:hover{
+   border: 3px solid gold;
+   transition: 0.5s all;
+}
