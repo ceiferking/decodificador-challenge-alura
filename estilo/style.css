@@ -116,8 +116,8 @@ body{
 .btn-copiar{
     border: 2px solid black;
     border-radius: 10px;
-    text-decoration: none;
-    color: darkblue;
+    background: linear-gradient( 40deg, blueviolet, rgb(99, 59, 122)0000, rgb(151, 89, 156));
+    color: white;
     width: 150px;
     height: 50px;
     margin-bottom: 10%;
