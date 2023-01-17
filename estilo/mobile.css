@@ -73,16 +73,16 @@
    .cabecalho{
       display: flex;
       justify-content:left;
-      padding: 3%;
+      padding: 1%;
    }
 
    .cabecalho h1{
-      font-size: 28px;
+      font-size: 25px;
       text-align: center;
    }
 
    .cabecalho img{
-      width: 100%;
+      width: 300px;
       height: 10%;
       width: auto;
       height: auto;
@@ -90,29 +90,32 @@
 
    .container-input, .input {
       width: 100%;
-      height: 20%;
+      height: 10%;
+      padding: 0px;
+      margin: 0;
    }
+
    #output{
-      
       width: 100%;
       height: 20%;
-      margin-top: 15%;
+      margin-top: 5%;
    }
 
    #input-text{
-      width: 100%;
+      width: 90%;
       height: 20%;
+      height: auto;
       font-size: 20px;
+      margin: 1%;
    }
    
    #output img{
-      
       width: 90%;
       height: 20%;
       width: auto;
       height: auto;
-      margin-top: 4%;
-      margin-left: 10%;
+      margin-top: 0%;
+      margin-left: 0%;
    }
 
    .container-bnt{
@@ -124,7 +127,7 @@
    .container-bnt button{
       align-items: center;
       width: 100%;
-      margin: 5% 5%;
+      margin: 2% 1%;
    }
 
    .input p{
