@@ -6,21 +6,21 @@ function criptografar(){
 
   var texto = textInput.value;
 
-  var resultCripto = texto.replace(/i/g, "ad").replace(/a/g, "ha").replace(/o/g, "eu").replace(/u/g, "gig").replace(/c/g, "ws").replace(/d/g, "s").replace(/e/g, "a").replace(/f/g, "gs").replace(/g/g, "kb").replace(/h/g, "ss").replace(/j/g, "lj").replace(/k/g, "qq").replace(/l/g, "qt").replace(/m/g, "cc").replace(/n/g, "xx").replace(/p/g, "hg");
+  var resultCripto = texto.replace(/i/g, "bac").replace(/a/g, "kjd").replace(/o/g, "lsf").replace(/u/g, "kjt").replace(/c/g, "fac").replace(/d/g, "dwq").replace(/e/g, "ttr").replace(/f/g, "klt").replace(/g/g, "578").replace(/h/g, "741").replace(/j/g, "ljgf").replace(/k/g, "lads").replace(/l/g, "uyts").replace(/m/g, "147").replace(/n/g, "opena").replace(/p/g, "888");
 
   
   document.getElementById('output').innerHTML = '<textarea readonly id="input-text">' + resultCripto + 
-  '</textarea>' + '<button class="btn-copiar" id="copiar" onclick="copiar()">Copiar!</button>'
+  '</textarea>' + '<button class="btn-copiar" id="copiar" onclick="copiar()">Copiar</button>'
 }
 
 function descriptografar(){
 
     var texto = textInput.value;
 
-    var resultDescripto = texto.replace(/ad/g, "i").replace(/ha/g, "a").replace(/eu/g, "o").replace(/gig/g, "u").replace(/ws/g, "c").replace(/s/g, "d").replace(/a/g, "e").replace(/gs/g, "f").replace(/kb/g, "g").replace(/ss/g, "h").replace(/lj/g, "j").replace(/qq/g, "k").replace(/qt/g, "l").replace(/cc/g, "m").replace(/xx/g, "n").replace(/hg/g, "p");
+    var resultDescripto = texto.replace(/bac/g, "i").replace(/kjd/g, "a").replace(/lsf/g, "o").replace(/kjt/g, "u").replace(/fac/g, "c").replace(/dwq/g, "d").replace(/ttr/g, "e").replace(/klt/g, "f").replace(/578/g, "g").replace(/741/g, "h").replace(/ljgf/g, "j").replace(/lads/g, "k").replace(/uyts/g, "l").replace(/147/g, "m").replace(/opena/g, "n").replace(/888/g, "p");
   
     document.getElementById('output').innerHTML = '<textarea readonly id="input-text">' + resultDescripto + 
-    '</textarea>' + '<button class="btn-copiar" id="copiar" onclick="copiar()">Copiar!</button>'
+    '</textarea>' + '<button class="btn-copiar" id="copiar" onclick="copiar()">Copiar</button>'
 }
 
 function copiar() {
